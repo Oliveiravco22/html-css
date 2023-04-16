@@ -1,0 +1,32 @@
+@charset "UTF-8";
+@font-face {
+    font-family: beauty;
+    src: url(fonts/beauty_6/BeautyDisplay.otf) format(opentype);
+    src: url(fonts/beauty_6/Beauty.otf) format(opentype);
+    src: url(fonts/beauty_6/BeautyDisplayRegular.ttf) format(trutype);
+    src: url(fonts/beauty_6/BeautyRegular.ttf) format(trutype);
+    src: url(fonts/beauty_6/Woman.otf) format(opentype);
+    src: url(fonts/beauty_6/WomanRegular.ttf) format(trutype);
+}
+@font-face {
+    font-family: butler_stencil;
+    src:url(fonts/butler_stencil/Butler_Stencil/Butler_Black_Stencil.otf) format(opentype);
+    src: url(fonts/butler_stencil/Butler_Stencil/Butler_Bold_Stencil.otf) format(opentype);
+    src: url(fonts/butler_stencil/Butler_Stencil/Butler_ExtraBold_Stencil.otf) format(opentype);
+    src: url(fonts/butler_stencil/Butler_Stencil/Butler_Light_Stencil.otf) format(opentype);
+    src: url(fonts/butler_stencil/Butler_Stencil/Butler_Medium_Stencil.otf) format(opentype);
+    src: url(fonts/butler_stencil/Butler_Stencil/Butler_Regular_Stencil.otf) format(opentype);
+    src: url(fonts/butler_stencil/Butler_Stencil/Butler_Ultra_Light_Stencil.otf) format(opentype);
+}
+h1,h2 {
+    font-family: butler_stencil;
+    font-size: 3em;
+    font-weight: bolder;    
+}
+p{
+    font-family: butler_stencil;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-style: italic;
+    
+}

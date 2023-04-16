@@ -1,0 +1,16 @@
+@charset "UTF-8";
+h1{ /* box-level*/
+    background-color: rgb(207, 245, 245);
+    height: 300px;
+    width: 300px;
+    border: 5px solid rgb(114, 139, 139);
+    padding: 10px;
+    margin: 10px auto 30px auto;
+    outline: 3px dashed rgb(241, 154, 154);
+}
+a{ /* inline level*/
+    padding: 10px;
+    text-decoration: none;
+    border: 5px dashed rgb(114, 139, 139);
+
+}

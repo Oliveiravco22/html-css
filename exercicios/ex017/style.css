@@ -1,0 +1,18 @@
+@charset "UTF-8";
+body{
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* shorthands representado tudo em um atalho:
+
+    font: italic lighter 1.2em 'Franklin Gothic Medium', 'Arial NArrow', Arial, sans-serif;  */
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+}

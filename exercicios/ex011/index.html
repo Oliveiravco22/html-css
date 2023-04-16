@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinamicas</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Nesse exercicio da pra ver que é possivel adapatar uma imagem para varios formatos de tela usando somente o HTML. Para isso basta ultilizar a tag &lt picture &gt</p>
+<picture>
+    <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+    <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="imgaem tamanho g">
+</picture>
+<h1>Inserindo audio</h1>
+<p>Nesse exercicio vamos ver como é possivel inserir audio.</p>
+<audio preload="metadata"  controls autoplay loop>
+    <source src="midia/Spirit Riders - Telecasted.mp3" type="audio/mpeg">
+    <p>Seu navegador não suporta sudio <a href="midia/Spirit Riders - Telecasted.mp3" download="midia/Spirit Riders - Telecasted.mp3" type="audio/mpeg"></a></p>
+</audio>
+    
+</body>
+</html>
